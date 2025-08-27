@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coming Soon</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- Font Awesome z CDN pro ikony na odkazy na sockosite -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <header>
+    <img src="/pix/logo.png" alt="Vector logo" class="logo">
+    <div class="price">Cena: <strong id="price_text"></strong> BTC / USD</div>
+  </header>
+
+  <main>
+    <section class="content">
+      <div class="countdown"></div>
+      <h1 class="title">Už se nemůžete <br> dočkat? Brzy <br> budeme live...</h1>
+
+        <div class="newsletter">
+            <div class="newsletter-form">
+                <label for="email">Přihlášení k newsletteru</label>
+                <form id="newsletter-form">
+                  <input type="email" id="email" placeholder="Email" required>
+                  <button type="submit">Přihlásit</button>
+                </form>
+                <div class="error-msg hidden" id="email-error"></div>
+            </div>
+            <div class="newsletter-message hidden">
+                <p>Byl jste přihlášen k newsletter, očekávejte velké věci.</p>
+            </div>
+      </div>
+    </section>
+
+    <section class="image">
+      <img src="/pix/rocket.png" alt="Raketa">
+    </section>
+  </main>
+
+  <footer>
+    <div class="socials">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+    <div class="copyright">© Copyright Test s.r.o. | Všechna práva vyhrazena</div>
+  </footer>
+</body>
+</html>
