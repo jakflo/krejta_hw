@@ -1,6 +1,7 @@
 {
     "name": "jakflo/krejta_hw",
     "require": {
+        "php": ">=8.2",
         "phpmailer/phpmailer": "^6.10"
     },
     "autoload": {
