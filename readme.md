@@ -1,0 +1,4 @@
+- vytořte DB pomocí db.sql  
+- nakonfigurujte připojení k DB pomocí /config/db.json  
+- nakonfigurujte smpt pomocí /config/mailer.json  
+- spusťte PHP příkazem php -S localhost:8000 -t www
