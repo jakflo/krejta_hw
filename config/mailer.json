@@ -1,0 +1,8 @@
+{
+    "host": "smtp.seznam.cz", 
+    "userName": "username", 
+    "password": "password", 
+    "port": "465", 
+    "fromEmail": "our@email.cz", 
+    "fromName": "Krejtovo"
+}
